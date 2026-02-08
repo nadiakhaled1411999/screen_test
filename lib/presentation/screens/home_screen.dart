@@ -50,9 +50,8 @@ class HomeScreen extends StatelessWidget {
                                   itemCount: 2,
                                   itemBuilder: (context, index) => Padding(
                                       padding: EdgeInsets.only(
-
                                         right: index == 0 ? 8 : 0,
-  left: index == 1 ? 0 : 0,
+                                       left: index == 1 ? 0 : 0,
                                       ),
                                       child: SizedBox(
                                           width: MediaQuery.of(context)
